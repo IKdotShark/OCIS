@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite 1">
+    <test name="AllTests">
+        <groups>
+            <run>
+                <include name="firstFigure"/>
+                <include name="secondFigure"/>
+                <include name="twoFigures"/>
+                <include name="randomInt"/>
+                <include name="print"/>
+                <include name="sort"/>
+                <exclude name="test"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="firstClassTest" />
+            <class name="secondClassTest" />
+            <class name="AppTest" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite 3">
+    <test name="secondClassTest">
+        <groups>
+            <run>
+                <include name="randomInt"/>
+                <include name="print"/>
+                <include name="sort"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="secondClassTest" />
+        </classes>
+    </test>
+</suite>
